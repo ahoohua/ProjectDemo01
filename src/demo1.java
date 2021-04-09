@@ -20,6 +20,16 @@ public class demo1 {
         System.out.println("the user1 name is: " + usersInfo1.getName());
         System.out.println("the user1 gender is: " + usersInfo1.getGender());
         System.out.println("the user1 age is: " + usersInfo1.getAge());
+
+        UsersInfo usersInfo2 = new UsersInfo();
+        usersInfo2.setName("rose");
+        usersInfo2.setAge(28);
+        usersInfo2.setGender(Gender.FEMALE.toString());
+
+        System.out.println("the user1 name is: " + usersInfo2.getName());
+        System.out.println("the user1 gender is: " + usersInfo2.getGender());
+        System.out.println("the user1 age is: " + usersInfo2.getAge());
+
         System.out.println("values of enum Gender is: " + Arrays.asList(Gender.values()));
 
     }
