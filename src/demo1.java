@@ -31,6 +31,6 @@ public class demo1 {
         System.out.println("the user1 age is: " + usersInfo2.getAge());
 
         System.out.println("values of enum Gender is: " + Arrays.asList(Gender.values()));
-
+        System.out.println("LOVE");
     }
 }
